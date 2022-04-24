@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UttamBlog</title>
+    <style>
+        body{
+            background: #47bbf5;
+            width: 100%;
+            margin: 0%;
+            overflow-x:hidden;
+        }
+        .logo{
+            margin-top: 0px;
+            font-size:xx-large;
+            font-weight:bolder;
+        }
+        .navbar{
+            background: transparent;
+        }
+        .navigation{
+            display: flex;
+            float: right;
+            justify-content: flex-end;
+        }
+        body::before{
+            opacity: 0.3;
+        }
+        .item{
+            text-decoration: none;
+            text-align: end;
+            font-size:large;
+            color: black;
+        }
+        .item:hover{
+            text-decoration:underline;
+            text-align: end;
+            font-size: large;
+            color:black;
+        }
+        li{
+            list-style: none;
+            padding: 8px;
+        }
+        section{
+            margin: 5px;
+        }
+        .container{
+            display: flex;
+            justify-items: flex-end;
+            flex-direction: row-reverse;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .btn{
+            padding-left: 10px;
+    padding-bottom: 10px;
+    width: 116px;
+            border: none;
+            border-radius: 10px;
+            background: transparent;
+            align-items: center;
+            text-decoration: none;
+            cursor: pointer;
+            display: flex;
+            width: 12%;
+        }
+        .container2{
+            width: 100vw;
+            height: 500px;
+            display:flex;
+            align-items:center;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        hr{
+            background-color: #f58447;
+            height: 1px;
+            width: 250px;
+        }
+        .item3{
+            text-align: center;
+            font-weight: 100;
+            background-color: white;
+            color: #FF6614;
+            margin: auto;
+            border: 2px solid black;
+            border-radius: 4px;
+            box-shadow: 10px 10px 12px rgb(39, 45, 48);
+            width: 600px;
+            height: 400px;
+        }
+        .form-group ::placeholder{
+            color: #FF6614;
+        }
+        .form-group input{
+            text-align:start; 
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            width: auto;
+            margin:auto;
+            padding: 8px;
+        }
+        .form-group{
+            border-color: #FF6614;
+            width: auto;
+            height: 45px;
+        }
+        .btn {
+        margin:auto;
+        border: 2px solid #FF6614;
+        border-radius: 2px;
+        color: #FF6614;
+        padding:2px;
+        text-decoration: none;
+        cursor: pointer;
+        }
+        .btn:hover{
+        color:white;
+        background-color: #FF6614;
+        border-radius: 2px;
+        padding: 2px;
+        }
+        .foot{
+            border: 2px solid black;
+            background-color: white;
+            margin: 10px;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            width: 100%;
+            height: 200px;
+        }
+        .text3{
+            color: #FF6614;
+            width: 15%;
+            padding: 30px;
+            font-size: medium;
+        }
+        .follow{
+            padding: 30px;
+            color:black;
+            width: 15%;
+        }
+        
+        .btn1{
+            padding-left: 10px;
+    padding-bottom: 10px;
+    width: 116px;
+            border: none;
+            border-radius: 10px;
+            background: transparent;
+            align-items: center;
+            text-decoration: none;
+            cursor: pointer;
+            display: flex;
+            width: 12%;
+        }
+        .follow h1{
+    text-shadow: 1px 1px orange;
+        }
+        .footimg{
+            padding-right: 50px;
+        }
+
+    </style>
+</head>
+<body >
+    <div class="start">
+    <div class="container">
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li ><a class="item" href="D:\code\webdev\UttamVlog\start.html" target="_self">Home</a></li>
+                <li ><a class="item" href="D:\code\webdev\UttamVlog\about.html" target="_self">About Me</a></li>
+                <li ><a class="item" href="D:\code\webdev\UttamVlog\contact.html" target="_self">Contact Me</a></li>
+                <li ><a class="item" href="D:\code\webdev\UttamVlog\travel.html" target="_self">Travel</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <!--Logo-->
+        <!--<img src="D:\code\webdev\UttamVlog\pics\logo.png" alt=".." width="50px" height="50px">-->
+        <p class="logo">MyBlog</p>
+    </section>
+    </div>
+</div>
+
+<div class="container2">
+    <div class="item3">
+        <h2>Contact Me</h2>
+        <div class="text1">
+            <p>"For any questions, suggestions or collaborations, drop me a message here."</p>
+        </div>
+        <hr >
+        <footer>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Contact Number">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Your message">
+            </div>
+            <button class="btn">
+                Submit
+            </button>
+        </form>
+    </footer>
+    </div>
+</div>
+
+<footer class="foot">
+    <div class="text3">
+        <p>All the information and details menioned in this blog are my own personal experience.</p>
+    </div>
+    <div class="follow">
+        <h1>Follow Me</h1>
+        <button class="btn1">
+            <a href="https://www.instagram.com/uttam_adha/" target="_blank" ><img src="insta logo.png"  alt=".." width="30px" height="25px"></a>
+            <a href="mailto:uttamadha9622@gmail.com" target="_blank" ><img src="email.png"  alt=".." width="30px" height="25px"></a>
+        </button>
+    </div>
+    <div class="footimg">
+        <img src="footer.jpg" alt=".." width="200px" height="200px">
+    </div>
+
+</footer>
+</body>
+</html>
